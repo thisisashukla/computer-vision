@@ -11,4 +11,4 @@ def stretch(image):
 
         temp[:,:,i] = (image[:,:,i]-minI)*(((maxO-minO)/(maxI-minI))+minO)
     
-    return np.float32(temp)
+    return temp
