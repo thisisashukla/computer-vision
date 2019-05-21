@@ -1,15 +1,15 @@
 # Computer Vision Course
 
-CV Tracks
+Foundation:
 
-- CV Algos
-- Classification
-- Semantic Segmentation
-- Object Detection
-- Style Transfer
-- Generative Models
-
-Boiler Plate
-
-- Models
-- Utils
+- How Computers See Images?
+- Digital Image Properties
+  - Dimensions
+  - Resolution
+  - Histograms
+- Image Enhancement
+  - Contrast Stretch
+  - Histogram Stretch
+- Introduction to Advanced Concepts
+  - CNNS
+  - Object Detection
