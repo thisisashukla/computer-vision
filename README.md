@@ -1,15 +1,42 @@
-# Computer Vision Course
+# Image Analytics Using OpenCV
 
-Foundation:
+A big shoutout to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for his awesome computer vision tutorials on [PyImageSearch](https://www.pyimagesearch.com)
 
-- How Computers See Images?
-- Digital Image Properties
+## About the Content
+
+Ever since the ImageNet competition in 2014, there has been an exponential rise in the capabilities of computer in processing, understanding, and now even generating digital images. Given the shear volume of images being generated, image analytics is only here to grow and improve the abilities of computers to understand images.
+
+For the same reason it becomes an interesting area for any data science enthusiast to work in and develop a career in. From a data science perspective, image analytics range from using traditional computer vision algorithms of edge detection or morphological operations to state of the art neural network architectures to derive analytical value from images.
+
+This tutorial series aims at covering this vast spectrum of image analytics techniques right from the very basic concepts to the most advanced ones. The series consists of jupyter notebooks for demonstrating core ideas in each topics accompanied by exercises on each topic to try your hands on.
+
+## Objectives
+
+By the end of the tutorial series you will be able to easily import images and perform basic preprocessing to create more suitable features to use them in any analytics pipeline. In the more advanced chapters, you will be able to create data ingestion pipelines for neural networks and learn to perform classification, object detection, instance segmentation, style transfer using SOTA neural network architectures
+
+## Software Pre-requisites
+
+You will need a Python environment with Anaconda, OpenCV, Jupyter notebooks, Keras, Tensorflow installed.
+
+## Knowledge Pre-requisites
+
+Working knowledge of Python and Jupyter notebooks is essential for this course. Hands-on experience with OpenCV and Keras will also be helpful.
+
+## Tutorial Outline
+
+- How Do Computers See Images
+- Properties of Digital Images
   - Dimensions
-  - Resolution
+  - Resolution: Spatial, Spectral and Temporal
   - Histograms
 - Image Enhancement
-  - Contrast Stretch
-  - Histogram Stretch
-- Introduction to Advanced Concepts
-  - CNNS
-  - Object Detection
+  - Contrast stretch
+- Convolution Operation and Filter Creation
+- Edge Detection
+- Morphological Operations on Binary Images
+
+## About the Author
+
+Ankur Shukla is a Data Scientist at Deloitte Consulting. He consult clients from different industries on their data science problems. Python is his bread and butter and he uses it extensively for his day to day machine learning and data analysis tasks. Ankur is a postgraduate from CSRE, IIT Bombay in Geoinformatics and Natural Resources Engineering. Majority of his work at CSRE was focused in satellite image processing using Python.
+
+[LinkedIn](https://www.linkedin.com/in/work-ankur-shukla/)
