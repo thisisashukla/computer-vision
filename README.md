@@ -1,3 +1,5 @@
+# "Krtrim Drshti" is Artificial Vision in [Hindi](https://en.wikipedia.org/wiki/Hindi)
+
 # Image Analytics Using OpenCV
 
 A big shoutout to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for his awesome computer vision tutorials on [PyImageSearch](https://www.pyimagesearch.com)
