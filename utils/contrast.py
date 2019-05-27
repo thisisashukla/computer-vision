@@ -19,5 +19,3 @@ def stretch(image, mode = 'linear'):
 
         temp = (image-minI)*(((maxO-minO)/(maxI-minI))+minO)
     return temp
-
-
