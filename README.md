@@ -24,16 +24,17 @@ Working knowledge of Python and Jupyter notebooks is essential for this course. 
 
 ## Tutorial Outline
 
-- How Do Computers See Images
+- [How Do Computers See Images](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/01_how_do_computers_see.ipynb)
 - Properties of Digital Images
   - Dimensions
-  - Resolution: Spatial, Spectral and Temporal
-  - Histograms
+  - [Resolution](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/02_resolution.ipynb): Spatial, Spectral and Temporal
+  - [Image Brightness/Contrast](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/03_brightness_contrast.ipynb)
+  - [Histograms](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/04_histograms.ipynb)
 - Image Enhancement
   - Contrast stretch
-- Convolution Operation and Filter Creation
-- Edge Detection
-- Morphological Operations on Binary Images
+- [Convolution Operation and Filter Creation](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/05_neighborhood_operations.ipynb)
+- [Edge Detection](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/06_edge_detection.ipynb)
+- [Morphological Operations on Binary Images](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/07_morphological_operations.ipynb)
 
 ## About the Author
 
