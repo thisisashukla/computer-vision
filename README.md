@@ -2,7 +2,7 @@
 
 ## Image Analytics Using OpenCV
 
-A big shoutout to [Adrian Rosebrock](https://www.pyimagesearch.com/about/) for his awesome computer vision tutorials on [PyImageSearch](https://www.pyimagesearch.com)
+A big shoutout to [Adrian Rosebrock](https://www.linkedin.com/in/adrian-rosebrock-59b8732a/) for his awesome computer vision tutorials on [PyImageSearch](https://www.pyimagesearch.com) and [Satya Mallik](https://www.linkedin.com/in/satyamallick/) for [LearnOpenCV](https://www.learnopencv.com/)
 
 ## About the Content
 
