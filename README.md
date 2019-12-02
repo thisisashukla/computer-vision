@@ -40,6 +40,6 @@ Working knowledge of Python and Jupyter notebooks is essential for this course. 
 
 ## About the Author
 
-Ankur Shukla is a Data Scientist at Deloitte Consulting. He consult clients from different industries on their data science problems. Python is his bread and butter and he uses it extensively for his day to day machine learning and data analysis tasks. Ankur is a postgraduate from CSRE, IIT Bombay in Geoinformatics and Natural Resources Engineering. Majority of his work at CSRE was focused in satellite image processing using Python.
+Ankur Shukla is a Data Science Analyst at Deloitte Consulting. He consult clients from different industries on their data science problems. Python is his bread and butter and he uses it extensively for his day to day machine learning and data analysis tasks. Ankur is a postgraduate from CSRE, IIT Bombay in Geoinformatics and Natural Resources Engineering. Majority of his work at CSRE was focused in satellite image processing using Python.
 
 [LinkedIn](https://www.linkedin.com/in/work-ankur-shukla/)
