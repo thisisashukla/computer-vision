@@ -73,6 +73,8 @@ while True:
     ret, frame = cap.read()
     if frame is None:
         break
+    frac = 0.2
+    frame = cv.resize(frame, (int(cap.get(cv.CAP_PROP_FRAME_WIDTH)*frac), int(cap.get(cv.CAP_PROP_FRAME_HEIGHT)*frac)), fx = frac, fy = frac)
     frame_HSV = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
     frame_threshold = cv.inRange(frame_HSV, (low_H, low_S, low_V), (high_H, high_S, high_V))
     
