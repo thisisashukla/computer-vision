@@ -70,10 +70,14 @@ cv.createTrackbar(high_V_name, window_detection_name , high_V, max_value, on_hig
 
 while True:
     
-    ret, frame = cap.read()
+    if args.path is not None:
+        frame = cv.imread(args.path)
+    else:
+        ret, frame = cap.read()
     if frame is None:
+        print('break')
         break
-    frac = 0.2
+    frac = 1
     frame = cv.resize(frame, (int(cap.get(cv.CAP_PROP_FRAME_WIDTH)*frac), int(cap.get(cv.CAP_PROP_FRAME_HEIGHT)*frac)), fx = frac, fy = frac)
     frame_HSV = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
     frame_threshold = cv.inRange(frame_HSV, (low_H, low_S, low_V), (high_H, high_S, high_V))
@@ -84,4 +88,6 @@ while True:
     
     key = cv.waitKey(30)
     if key == ord('q') or key == 27:
+        print('breaking')
+        
         break
