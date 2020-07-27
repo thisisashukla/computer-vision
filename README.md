@@ -1,24 +1,58 @@
-# "Krtrim Drshti" is Artificial Vision in [Hindi](https://en.wikipedia.org/wiki/Hindi)
+# A Notebook Series on Computer Vision
 
-## Image Analytics Using OpenCV
+## Highlights
 
-A big shoutout to [Adrian Rosebrock](https://www.linkedin.com/in/adrian-rosebrock-59b8732a/) for his awesome computer vision tutorials on [PyImageSearch](https://www.pyimagesearch.com) and [Satya Mallik](https://www.linkedin.com/in/satyamallick/) for [LearnOpenCV](https://www.learnopencv.com/)
+<figure>
+    <img src="assets/highlights/spatial_res.jpg" width = 500px/>
+    <figcaption style = "text-align:center">Spatial Resolution
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="assets/highlights/image_hist.jpg" width = 500px/>
+    <figcaption style = "text-align:center">Image and its Histogram
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="assets/highlights/prewitt_op.jpg" width = 500px/>
+    <figcaption style = "text-align:center">Detecting Edges using Prewitt Operator
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="assets/highlights/edge_problem.jpg" width = 500px/>
+    <figcaption style = "text-align:center">Classifying Defective Tablets using Edge Detection. Ref: https://stackoverflow.com/questions/30174233/how-to-tell-the-number-of-defective-tablets-using-matlab
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="assets/highlights/deep_seg.jpg" width = 500px/>
+    <figcaption style = "text-align:center">Segmentation Using Deep Neural Network
+    </figcaption>
+</figure>
+
+## Acknowledgement
+
+I dedicate this work to the lotus feet of my teacher [Prof. B. Krishna Mohan](http://www.csre.iitb.ac.in/bkmohan/), who is the source of whatever little I know of this amazing field called Computer Vision and under whom I have completed my master's degree.
 
 ## About the Content
 
-Ever since the ImageNet competition in 2014, there has been an exponential rise in the capabilities of computer in processing, understanding, and now even generating digital images. Given the shear volume of images being generated, image analytics is only here to grow and improve the abilities of computers to understand images.
+This notebook series is a collection of Jupyter notebooks organized in chapters, covering some of the most interesting and useful topics of Computer Vision.
 
-For the same reason it becomes an interesting area for any data science enthusiast to work in and develop a career in. From a data science perspective, image analytics range from using traditional computer vision algorithms of edge detection or morphological operations to state of the art neural network architectures to derive analytical value from images.
+This series focuses on presenting concepts as organically connected tools to solve different problems related to RGB images. And give to develop an understanding in the reader about how different concepts are tied together to implement one image analytics solution.
 
-This tutorial series aims at covering this vast spectrum of image analytics techniques right from the very basic concepts to the most advanced ones. The series consists of jupyter notebooks for demonstrating core ideas in each topics accompanied by exercises on each topic to try your hands on.
+The notebooks presented here are a blend of theory and code to balance between understanding and implementation.
 
 ## Objectives
 
-By the end of the tutorial series you will be able to easily import images and perform basic preprocessing to create more suitable features to use them in any analytics pipeline. In the more advanced chapters, you will be able to create data ingestion pipelines for neural networks and learn to perform classification, object detection, instance segmentation, style transfer using SOTA neural network architectures
+The objective of this notebook series is to make the reader comfortable with different concepts of image processing using traditional and neural network based techniques.
 
 ## Software Pre-requisites
 
-You will need a Python environment with Anaconda, OpenCV, Jupyter notebooks, Keras, Tensorflow installed.
+You will need a Python environment with OpenCV, Jupyter notebooks, Keras, Tensorflow installed.
+
+Use the requirements.txt in the repo.
 
 ## Knowledge Pre-requisites
 
@@ -26,20 +60,32 @@ Working knowledge of Python and Jupyter notebooks is essential for this course. 
 
 ## Tutorial Outline
 
-- [How Do Computers See Images](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/01_how_do_computers_see.ipynb)
-- Properties of Digital Images
-  - Dimensions
-  - [Resolution](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/02_resolution.ipynb): Spatial, Spectral and Temporal
-  - [Image Brightness/Contrast](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/03_brightness_contrast.ipynb)
-  - [Histograms](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/04_histograms.ipynb)
-- Image Enhancement
-  - Contrast stretch
-- [Convolution Operation and Filter Creation](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/05_neighborhood_operations.ipynb)
-- [Edge Detection](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/06_edge_detection.ipynb)
-- [Morphological Operations on Binary Images](https://github.com/git-ankur-shukla/krtrim-drshti/blob/master/foundation/07_morphological_operations.ipynb)
+- Chapter 1 - Foundation
+  - [Why Computer Vision](1_foundation/00_why_computer_vision.ipynb)
+  - [How Do Computers See Images](1_foundation/01_how_do_computers_see_images.ipynb)
+  - [Image Properties](1_foundation/.ipynb_checkpoints/02_image_properties-checkpoint.ipynb)
+  - [Basic Operations on Images](1_foundation/.ipynb_checkpoints/03_basic_operations_on_images-checkpoint.ipynb)
+  
+- Chapter 2 - Neighborhood Operations
+  - [Neighborhood Operations](2_neighborhood_ops/01_neighborhood_operations.ipynb)
+  - [Edge Detection](2_neighborhood_ops/02_edge_detection.ipynb)
+  - [Morphological Operations](2_neighborhood_ops/03_morphological_operations.ipynb)
+  
+- Chapter 3 - Image Segmentation
+  - [Introduction to Image Segmentation](3_segmentation/00_introduction_to_image_segmentation.ipynb)
+  - [Non Contextual Techniques](3_segmentation/01_non_contextual_techniques.ipynb)
+  - [Contextual Techniques](3_segmentation/02_contextual_techniques.ipynb)
+  - [Evaluate Segmentation Results](3_segmentation/03_evaluate_segmentation_results.ipynb)
+  - [Deep Neural Network Segmentation Techniques](3_segmentation/04_deep_segmentation_techniques.ipynb)
+  - [Segmentation Models](3_segmentation/05_segmentation_models.ipynb)
+  
+- Chapter 4 - Video Analytics
+  - [Let's Add Time Dimension](4_video_analytics/00_lets_add_time_dimension.ipynb)
+  - [Let's Do Some Video Analysis](4_video_analytics/01_lets_do_some_video_analysis.ipynb)
+  - [CV For Videos](4_video_analytics/02_cv_for_videos.ipynb)
 
 ## About the Author
 
 Ankur Shukla is a Data Science Analyst at Deloitte Consulting. He consult clients from different industries on their data science problems. Python is his bread and butter and he uses it extensively for his day to day machine learning and data analysis tasks. Ankur is a postgraduate from CSRE, IIT Bombay in Geoinformatics and Natural Resources Engineering. Majority of his work at CSRE was focused in satellite image processing using Python.
 
-[LinkedIn](https://www.linkedin.com/in/work-ankur-shukla/)
+[LinkedIn](https://www.linkedin.com/in/thisisashukla), [Twitter](https://www.twitter.com/thisisashukla/)
