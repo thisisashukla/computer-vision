@@ -26,7 +26,10 @@ def showImage(imgs, titles = None, title = None, scale = False):
             if titles is not None:
                 ax[j].set_title(titles[j])
     else:
-        plt.imshow(imgs[0])
+        if len(imgs[0].shape) == 3:
+            plt.imshow(imgs[0])
+        else:
+            plt.imshow(imgs[0], cmap = 'gray')
         plt.title(titles[0])
         plt.axis(scale)               
     
