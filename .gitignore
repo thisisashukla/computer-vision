@@ -5,3 +5,4 @@
 5_segmentation/.ipynb_checkpoints/
 6_video-analytics/.ipynb_checkpoints/
 data/
+__pycache__
