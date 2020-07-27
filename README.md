@@ -3,25 +3,25 @@
 ## Highlights
 
 <figure>
-    <img src="assets/highlights/spatial_res.jpg" width = 500px/>
+    <img src="assets/highlights/spatial_res.JPG" width = 500px/>
     <figcaption style = "text-align:center">Spatial Resolution
     </figcaption>
 </figure>
 
 <figure>
-    <img src="assets/highlights/image_hist.jpg" width = 500px/>
+    <img src="assets/highlights/image_hist.JPG" width = 500px/>
     <figcaption style = "text-align:center">Image and its Histogram
     </figcaption>
 </figure>
 
 <figure>
-    <img src="assets/highlights/prewitt_op.jpg" width = 500px/>
+    <img src="assets/highlights/prewitt_op.JPG" width = 500px/>
     <figcaption style = "text-align:center">Detecting Edges using Prewitt Operator
     </figcaption>
 </figure>
 
 <figure>
-    <img src="assets/highlights/edge_problem.jpg" width = 500px/>
+    <img src="assets/highlights/edge_problem.JPG" width = 500px/>
     <figcaption style = "text-align:center">Classifying Defective Tablets using Edge Detection. Ref: https://stackoverflow.com/questions/30174233/how-to-tell-the-number-of-defective-tablets-using-matlab
     </figcaption>
 </figure>
