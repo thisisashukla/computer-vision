@@ -34,7 +34,7 @@
 
 ## Acknowledgement
 
-I dedicate this work to the lotus feet of my teacher [Prof. B. Krishna Mohan](http://www.csre.iitb.ac.in/bkmohan/), who is the source of whatever little I know of this amazing field called Computer Vision and under whom I have completed my master's degree.
+I dedicate this work to my teacher [Prof. B. Krishna Mohan](http://www.csre.iitb.ac.in/bkmohan/), who is the source of whatever little I know of this amazing field called Computer Vision and under whom I have completed my master's degree.
 
 ## About the Content
 
