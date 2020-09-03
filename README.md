@@ -74,10 +74,9 @@ Working knowledge of Python and Jupyter notebooks is essential for this course. 
 - Chapter 3 - Image Segmentation
   - [Introduction to Image Segmentation](3_segmentation/00_introduction_to_image_segmentation.ipynb)
   - [Non Contextual Techniques](3_segmentation/01_non_contextual_techniques.ipynb)
-  - [Contextual Techniques](3_segmentation/02_contextual_techniques.ipynb)
-  - [Evaluate Segmentation Results](3_segmentation/03_evaluate_segmentation_results.ipynb)
-  - [Deep Neural Network Segmentation Techniques](3_segmentation/04_deep_segmentation_techniques.ipynb)
-  - [Segmentation Models](3_segmentation/05_segmentation_models.ipynb)
+  - [Evaluate Segmentation Results](3_segmentation/02_evaluate_segmentation_results.ipynb)
+  - [Deep Neural Network Segmentation Techniques](3_segmentation/03_deep_segmentation_techniques.ipynb)
+  - [Segmentation Models](3_segmentation/04_segmentation_models aug.ipynb)
   
 - Chapter 4 - Video Analytics
   - [Let's Add Time Dimension](4_video_analytics/00_lets_add_time_dimension.ipynb)
