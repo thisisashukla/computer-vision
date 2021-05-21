@@ -29,6 +29,6 @@ seaborn==0.10.0
 segmentation-models==1.0.1
 Shapely==1.7.0
 tensorboard==2.0.2
-tensorflow==2.0.0
+tensorflow==2.5.0
 tqdm==4.46.0
 urllib3==1.25.8
