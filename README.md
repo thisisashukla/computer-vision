@@ -63,8 +63,8 @@ Working knowledge of Python and Jupyter notebooks is essential for this course. 
 - Chapter 1 - Foundation
   - [Why Computer Vision](1_foundation/00_why_computer_vision.ipynb)
   - [How Do Computers See Images](1_foundation/01_how_do_computers_see_images.ipynb)
-  - [Image Properties](1_foundation/.ipynb_checkpoints/02_image_properties-checkpoint.ipynb)
-  - [Basic Operations on Images](1_foundation/.ipynb_checkpoints/03_basic_operations_on_images-checkpoint.ipynb)
+  - [Image Properties](1_foundation/02_image_properties.ipynb)
+  - [Basic Operations on Images](1_foundation/03_basic_operations_on_images.ipynb)
   
 - Chapter 2 - Neighborhood Operations
   - [Neighborhood Operations](2_neighborhood_ops/01_neighborhood_operations.ipynb)
