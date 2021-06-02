@@ -31,4 +31,4 @@ Shapely==1.7.0
 tensorboard==2.0.2
 tensorflow==2.0.0
 tqdm==4.46.0
-urllib3==1.25.8
+urllib3==1.26.5
